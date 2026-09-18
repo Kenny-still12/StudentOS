@@ -1,16 +1,24 @@
-# React + Vite
+Project Overview 
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Gaku Registre is a personal work + finance management dashboard designed to accomodate the needs of international student in Australia.
 
-Currently, two official plugins are available:
+What it does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+part-time work and shift tracking
+fortnight work hour tracking
+Income and expense tracking 
+savings/balance overview 
+Currency conversion
+Study / trimester information
+Dashboard summaries
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Technology Stack
+• React + Vite
+• JavaScript
+• Tailwind CSS
+• Git + GitHub
+• Browser fetch API
+StudentOS — Project Specification v1.0 Page 4
+• LocalStorage
+• One exchange-rate API
