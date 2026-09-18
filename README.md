@@ -1,24 +1,23 @@
-Project Overview 
+# Gaku Registre
 
-Gaku Registre is a personal work + finance management dashboard designed to accomodate the needs of international student in Australia.
+Gaku Registre is a personal work and finance management dashboard built for international students living and studying in Australia. It brings together shift tracking, income and expenses, currency conversion, and study information into a single place, so students can see their work hours, finances, and study status at a glance.
 
-What it does
+## Features
 
-part-time work and shift tracking
-fortnight work hour tracking
-Income and expense tracking 
-savings/balance overview 
-Currency conversion
-Study / trimester information
-Dashboard summaries
+- Part-time work and shift tracking
+- Fortnightly work-hour tracking
+- Income and expense tracking
+- Savings and balance overview
+- Currency conversion
+- Study and trimester information
+- Dashboard summaries
 
+## Tech stack
 
-Technology Stack
-• React + Vite
-• JavaScript
-• Tailwind CSS
-• Git + GitHub
-• Browser fetch API
-StudentOS — Project Specification v1.0 Page 4
-• LocalStorage
-• One exchange-rate API
+- React + Vite
+- JavaScript
+- Tailwind CSS
+- Git + GitHub
+- Browser Fetch API
+- LocalStorage
+- Exchange-rate API
