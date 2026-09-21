@@ -1,10 +1,10 @@
-import SideBar from "./SideBar";
+import Sidebar from "./SideBar";
 import Header from "./Header"
 export default function AppLayout({ children }) {
     return (
         <div className="flex">
-            <SideBar />
-            <div>
+            <Sidebar />
+            <div className="w-full">
                 <Header />
                 <main>
                     {children}

@@ -1,6 +1,6 @@
 import Logo from "../Logo";
 
-export default function SideBar() {
+export default function Sidebar() {
     return (
         <div className="min-h-screen w-64 bg-neutral-800 px-6 py-2 flex flex-col justify-between">
             <Logo />
