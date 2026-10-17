@@ -1,11 +1,11 @@
 import AppLayout from "./Components/Layout/AppLayout"
-import Logo from "./Components/Logo"
+import MainContent from "./Components/Layout/MainContent"
 
 export default function App() {
   return (
     <>
       <AppLayout>
-        <Logo />
+        <MainContent />
       </AppLayout>
     </>
   )
