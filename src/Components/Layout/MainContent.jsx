@@ -1,6 +1,6 @@
 export default function MainContent({ children }) {
     return (
-        <main>
+        <main className="min-w-0 flex-1 overflow-y-auto p-6">
             {children}
         </main>
     )
