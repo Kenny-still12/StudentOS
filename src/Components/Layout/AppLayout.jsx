@@ -1,6 +1,7 @@
 import Sidebar from "./SideBar";
 import Header from "./Header"
 import { useState } from "react";
+import MainContent from "./MainContent";
 export default function AppLayout({ children }) {
 
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -18,9 +19,9 @@ export default function AppLayout({ children }) {
                 <Header
                     onMenuClick={toggleSidebar}
                 />
-                <main className="flex-1 p-6">
+                <MainContent>
                     {children}
-                </main>
+                </MainContent>
             </div>
         </div>
     )

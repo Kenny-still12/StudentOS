@@ -1,9 +1,7 @@
-export default function MainContent() {
+export default function MainContent({ children }) {
     return (
-        <>
-            <div>
-                <h1>hello Wolrd</h1>
-            </div>
-        </>
+        <main>
+            {children}
+        </main>
     )
 }
