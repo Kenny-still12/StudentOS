@@ -13,10 +13,11 @@ export default function Header({ onMenuClick }) {
                 >
                     <Menu />
                 </button>
-                <h1>Dashboard</h1>
+                <h1 className="line-clamp-1">menu name will be displayed</h1>
             </div>
 
             <div className="flex items-center gap-4">
+
                 <div className="flex items-center relative">
                     <Search
                         className="absolute w-5 left-3"
@@ -26,17 +27,20 @@ export default function Header({ onMenuClick }) {
                     </label>
                     <input
                         id="global-search"
-                        className="bg-neutral-500 rounded-md py-1 pl-10 pr-3 sm:w-64"
+                        className="bg-neutral-500 rounded-md py-1.5 pl-10 pr-3 sm:w-64 focus:border-green-500 focus:outline focus:outline-green-500"
                         placeholder="search..."
                         type="search" />
                 </div>
+
                 <button className="rounded-md bg-sky-500 px-3 py-1 text-sm hover:bg-sky-600">+ Add</button>
+
                 <button
                     type="button"
                     className="rounded-md p-1 hover:bg-neutral-700"
                 >
                     <Bell />
                 </button>
+
                 <div className="flex items-center gap-2">
                     <p>user</p>
                     <User />

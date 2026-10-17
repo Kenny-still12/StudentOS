@@ -1,11 +1,11 @@
 import AppLayout from "./Components/Layout/AppLayout"
-import MainContent from "./Components/Layout/MainContent"
+import Dashboard from "./Pages/Dashboard"
 
 export default function App() {
   return (
     <>
       <AppLayout>
-        <MainContent />
+        <Dashboard />
       </AppLayout>
     </>
   )
