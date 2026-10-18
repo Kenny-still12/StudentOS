@@ -7,32 +7,32 @@ export default function Dashboard() {
                 <p className="text-neutral-500 mb-4">
                     Your Student life, organised.
                 </p>
-                <div className="flex gap-6 flex-wrap">
+                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
                     {/* Dashboard cards will go here */}
-                    <div className="bg-neutral-800 p-2 rounded-md flex flex-col items-start gap-4">
+                    <div className="bg-neutral-800 p-5 rounded-xl flex flex-col gap-3">
                         {/* Work */}
-                        <h1 className="text-xl">Work</h1>
+                        <h2 className="text-xl">Work</h2>
                         <p className="text-2xl">12h</p>
                         <p className="text-sm">Work hours</p>
                     </div>
 
-                    <div className="bg-neutral-800 p-2 rounded-md flex flex-col  gap-4">
+                    <div className="bg-neutral-800 p-5 rounded-xl flex flex-col gap-3">
                         {/* Money */}
-                        <h1 className="text-xl">Money</h1>
+                        <h2 className="text-xl">Money</h2>
                         <p className="text-2xl">$ 1200</p>
                         <p>Balance</p>
                     </div>
 
-                    <div className="bg-neutral-800 p-2 rounded-md flex flex-col gap-4" >
+                    <div className="bg-neutral-800 p-5 rounded-xl flex flex-col gap-3" >
                         {/* Study */}
-                        <h1 className="text-xl">Study</h1>
+                        <h2 className="text-xl">Study</h2>
                         <h2 className="">Recent Activities</h2>
                         <p>0 / 12h</p>
                     </div>
 
-                    <div className="bg-neutral-800 p-2 rounded-md flex flex-col gap-4">
+                    <div className="bg-neutral-800 p-5 rounded-xl flex flex-col gap-3">
                         {/* Money Conversion */}
-                        <h1 className="text-xl">Money Conversion</h1>
+                        <h2 className="text-xl">Exchange Rate</h2>
                         <p className="text-2xl">$1 = 0.45php</p>
                     </div>
                 </div>
