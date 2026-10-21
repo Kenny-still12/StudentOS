@@ -12,7 +12,7 @@ export default function Sidebar({ isOpen }) {
                 <nav aria-label="Main navigation" >
                     <ul className="flex flex-col gap-2 ">
                         <li ><a
-                            href=""
+                            href="Dashboard.jsx"
                             className="block rounded-lg px-3 py-2 text-sm font-medium text-neutral-300 transition-colors duration-150 hover:bg-neutral-700 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-400 "
                         >Dashboard</a></li>
                         <li ><a
