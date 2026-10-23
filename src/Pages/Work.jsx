@@ -1,3 +1,4 @@
+import ShiftCard from "../Components/work/ShiftCard"
 import ShiftForm from "../Components/work/ShiftForm"
 
 export default function Work() {
@@ -26,6 +27,7 @@ export default function Work() {
     return (
         <div>
             <ShiftForm />
+            <ShiftCard />
         </div>
     )
 }
