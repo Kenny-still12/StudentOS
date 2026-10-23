@@ -32,7 +32,7 @@ export default function Header({ onMenuClick }) {
                         type="search" />
                 </div>
 
-                <button className="rounded-md bg-sky-500 px-3 py-1 text-sm hover:bg-sky-600">+ Add</button>
+                <button className="whitespace-nowrap rounded-md bg-sky-500 px-3 py-2 text-sm font-bold hover:bg-sky-600">+ Add</button>
 
                 <button
                     type="button"

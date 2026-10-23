@@ -25,7 +25,7 @@ export default function Work() {
 
 
     return (
-        <div>
+        <div className="flex flex-col gap-2">
             <ShiftForm />
             <ShiftCard />
         </div>
