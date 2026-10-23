@@ -24,13 +24,36 @@ export default function ShiftCard() {
             </div>
             {/* middle container */}
             <br />
-            <div>
-                <div></div>
-                <div></div>
+            <div className="w-full flex flex-col gap-4 items-center">
+                {/* start and end time container*/}
+                <div className="w-full flex gap-2 rounded-xl p-5 min-w-0">
+                    <div className="flex flex-1 flex-col items-start rounded-lg bg-neutral-600 px-2 py-2.5">
+                        <h2 className="text-sm text-neutral-500">START TIME</h2>
+                        <p>8:00 AM</p>
+                    </div>
+                    <div className="flex flex-1 flex-col items-start rounded-lg bg-neutral-600 px-2 py-2.5" >
+                        <h2 className="text-sm text-neutral-500">END TIME</h2>
+                        <p>4:00 PM</p>
+                    </div>
+                </div>
+
+                <div className=" w-full flex items-center justify-between gap-5">
+                    <div className="self-center">
+                        <p className="text-neutral-500 text-sm">Break : 30 min</p>
+                    </div>
+                    <div className="flex flex-col">
+                        <h2 className="text-green-300 font-semibold text-xl">7.5 hrs</h2>
+                        <p className="text-neutral-500 text-sm">Total working time</p>
+                    </div>
+                </div>
             </div>
+            <br />
             {/* bottom container */}
-            <div>
-                <div></div>
+            <div className="w-full flex justify-end">
+                <div className="flex gap-2">
+                    <button className="border border-neutral-500 px-3 py-1.5 rounded-xl text-sm transition-colors hover:border-neutral-700">Edit</button>
+                    <button className="border border-red-800 px-3 py-1.5 rounded-xl text-red-500 text-sm transition-colors hover:border-red-900 hover:text-red-700">Delete</button>
+                </div>
             </div>
         </section>
     )
