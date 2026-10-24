@@ -1,4 +1,9 @@
-export default function ShiftCard() {
+export default function ShiftCard({ shift }) {
+
+    const { id, date, startTime, endTime, breakMinutes, Status } = shift
+
+
+
     return (
         // main container
         <section className="bg-neutral-800 rounded-xl border border-neutral-600 p-5 sm:p-6">
@@ -19,27 +24,29 @@ export default function ShiftCard() {
                 </div>
                 {/* status tag <complete> <reserve> */}
                 <div className="self-center rounded-lg bg-green-700 px-3 py-1 shrink-0">
-                    <p className="whitespace-nowrap text-green-300 font-semibold text-sm">Completed</p>
+                    <p className="whitespace-nowrap text-green-300 font-semibold text-sm">{Status}</p>
                 </div>
             </div>
+
+            <div className="border border-neutral-600 my-5"></div>
             {/* middle container */}
-            <br />
+
             <div className="w-full flex flex-col gap-4 items-center">
                 {/* start and end time container*/}
                 <div className="w-full flex gap-2 rounded-xl p-5 min-w-0">
                     <div className="flex flex-1 flex-col items-start rounded-lg bg-neutral-600 px-2 py-2.5">
                         <h2 className="text-sm text-neutral-500">START TIME</h2>
-                        <p>8:00 AM</p>
+                        <p>{startTime} AM</p>
                     </div>
                     <div className="flex flex-1 flex-col items-start rounded-lg bg-neutral-600 px-2 py-2.5" >
                         <h2 className="text-sm text-neutral-500">END TIME</h2>
-                        <p>4:00 PM</p>
+                        <p>{endTime} PM</p>
                     </div>
                 </div>
 
                 <div className=" w-full flex items-center justify-between gap-5">
                     <div className="self-center">
-                        <p className="text-neutral-500 text-sm">Break : 30 min</p>
+                        <p className="text-neutral-500 text-sm">Break : {breakMinutes} min</p>
                     </div>
                     <div className="flex flex-col">
                         <h2 className="text-green-300 font-semibold text-xl">7.5 hrs</h2>
@@ -47,7 +54,7 @@ export default function ShiftCard() {
                     </div>
                 </div>
             </div>
-            <br />
+            <div className="border border-neutral-600 my-5"></div>
             {/* bottom container */}
             <div className="w-full flex justify-end">
                 <div className="flex gap-2">
