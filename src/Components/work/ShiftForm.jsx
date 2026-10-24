@@ -69,7 +69,7 @@ export default function ShiftForm() {
                 <button
                     type="submit"
                     className="rounded-xl py-2 px-5 bg-green-600 font-medium text-white transition-colors hover:bg-green-500"
-                >Add Shift</button>
+                >Add</button>
             </div>
 
         </form>

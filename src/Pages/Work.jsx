@@ -32,6 +32,8 @@ export default function Work() {
 
     return (
         <div className="flex flex-col gap-2">
+            <h2 className="font-semibold text-xl">Welcom back</h2>
+            <p className="text-sm text-neutral-500 mb-5">Manage your working hours with blink of an eye.</p>
             <ShiftForm />
             {renderCard()}
         </div>
