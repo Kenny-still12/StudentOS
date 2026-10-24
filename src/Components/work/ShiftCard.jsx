@@ -2,6 +2,22 @@ export default function ShiftCard({ shift }) {
 
     const { id, date, startTime, endTime, breakMinutes, Status } = shift
 
+    const monthConvert = {
+        1: "JAN",
+        2: "FEB",
+        3: "MAR",
+        4: "APR",
+        5: "MAY",
+        6: "JUN",
+        7: "JLY",
+        8: "AUG",
+        9: "SEP",
+        10: "OCT",
+        11: "NOV",
+        12: "DEC",
+    }
+
+    const [year, monthNum, day] = date.split("-")
 
 
     return (
@@ -13,8 +29,8 @@ export default function ShiftCard({ shift }) {
                 <div className="flex gap-3 sm:gap-5 items-center ">
                     {/* date container */}
                     <div className="bg-neutral-900 border border-neutral-600 rounded-xl px-5 py-2.5 flex flex-col items-center">
-                        <h2 className="font-medium text-sm text-neutral-500">OCT</h2>
-                        <p className="text-2xl font-semibold">23</p>
+                        <h2 className="font-medium text-sm text-neutral-500">{monthConvert[Number(monthNum)]}</h2>
+                        <p className="text-2xl font-semibold">{Number(day)}</p>
                     </div>
                     {/* shift info container */}
                     <div className="min-w-0">
